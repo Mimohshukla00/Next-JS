@@ -4,6 +4,8 @@ import React, { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import axios from "axios";
 
+
+// this is profile route
 export default function Profile() {
   const router = useRouter();
   const logout = async () => {
@@ -33,3 +35,4 @@ export default function Profile() {
     </div>
   );
 }
+
