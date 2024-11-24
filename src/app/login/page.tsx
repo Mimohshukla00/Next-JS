@@ -25,9 +25,7 @@ export default function Login() {
       console.log(response.data);
       router.push("/profile");
     } catch (error) {
-      setErrorMessage(
-        error.response?.data?.message || "Something went wrong. Please try again."
-      );
+      setErrorMessage("Something went wrong. Please try again.");
     } finally {
       setLoading(false);
     }
