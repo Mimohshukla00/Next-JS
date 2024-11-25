@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 import { useRouter } from "next/navigation"; // Ensure proper import
 import axios from "axios";
 
+// login logic is here
 export default function Login() {
   const [user, setUser] = React.useState({
     email: "",
